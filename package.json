@@ -1,0 +1,44 @@
+{
+	"name": "brandboosters-website",
+	"version": "1.0.0",
+	"description": "BrandBoosters - Full-service marketing agency website",
+	"author": "BrandBoosters Team <hello@brandboosters.marketing>",
+	"homepage": "https://brandboosters.marketing",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alpha-aks/brandboosters.git"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@types/gsap": "^1.20.2",
+		"@types/locomotive-scroll": "^4.1.3",
+		"axios": "^1.13.2",
+		"framer-motion": "^11.0.25",
+		"gsap": "^3.13.0",
+		"locomotive-scroll": "^5.0.0-beta.8",
+		"lucide-react": "^0.365.0",
+		"next": "14.1.4",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-icons": "^5.1.0",
+		"react-intersection-observer": "^9.8.1",
+		"sharp": "^0.33.3"
+	},
+	"devDependencies": {
+		"@types/node": "^20.19.25",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.0.1",
+		"eslint": "^8",
+		"eslint-config-next": "14.1.4",
+		"postcss": "^8",
+		"tailwindcss": "^3.3.0",
+		"typescript": "^5"
+	}
+}
