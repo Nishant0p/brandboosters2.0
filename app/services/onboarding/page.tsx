@@ -1,9 +1,8 @@
 'use client';
 
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
 
 const onboardingSteps = [
   {
