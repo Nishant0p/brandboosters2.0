@@ -927,6 +927,21 @@ export const presentationProjectItem = [
 
 
 export const publicationItems = [
+   {
+      id: 1,
+      title: "Digital Transformation",
+      src: "https://i.pinimg.com/736x/e1/ac/69/e1ac6950b51169c3ac4782ed068e5907.jpg"
+   },
+   {
+      id: 2,
+      title: "Web Development",
+      src: "https://i.pinimg.com/736x/d2/39/33/d2393398bfb86c895e601e834aebcf4f.jpg"
+   },
+   {
+      id: 3,
+      title: "Video Production",
+      src: "https://i.pinimg.com/736x/bf/5b/42/bf5b421c6573b987dd2f6e0429105b42.jpg"
+   }
 ];
 
 // insights page constants
