@@ -40,8 +40,8 @@ export default function NotFound() {
           Oops! Page Not Found
         </h2>
         <p className="mb-8 max-w-md text-gray-600 md:text-lg">
-          The page you're looking for doesn't exist or has been moved.
-          You'll be redirected to the homepage shortly.
+          The page you&apos;re looking for doesn&apos;t exist or has been moved.
+          You&apos;ll be redirected to the homepage shortly.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <Link 

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 const founders = [
   {
@@ -82,9 +83,11 @@ export default function TeamCarousel() {
                 className="absolute inset-0 flex flex-col md:flex-row items-center justify-center gap-8 p-6 md:p-12 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl"
               >
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20">
-                  <img 
+                  <Image 
                     src={founder.image} 
                     alt={founder.name}
+                    width={256}
+                    height={256}
                     className="w-full h-full object-cover"
                   />
                 </div>

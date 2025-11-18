@@ -73,7 +73,7 @@ export default function Onboarding() {
       <div className="max-w-2xl w-full bg-white rounded-2xl shadow-xl p-8">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome to BrandBoosters</h1>
-          <p className="text-gray-600">Let's get you set up in just a few steps</p>
+          <p className="text-gray-600">Let&apos;s get you set up in just a few steps</p>
         </div>
 
         {/* Progress Bar */}
@@ -90,7 +90,7 @@ export default function Onboarding() {
             <div className="text-center">
               <h2 className="text-2xl font-semibold mb-4">Step 1: Welcome</h2>
               <p className="text-gray-600 mb-6">
-                Thank you for choosing BrandBoosters. We're excited to help you grow your brand!
+                Thank you for choosing BrandBoosters. We&apos;re excited to help you grow your brand!
               </p>
             </div>
           )}
@@ -99,7 +99,7 @@ export default function Onboarding() {
             <div className="text-center">
               <h2 className="text-2xl font-semibold mb-4">Step 2: Your Preferences</h2>
               <p className="text-gray-600 mb-6">
-                Let us know what kind of services you're interested in.
+                Let us know what kind of services you&apos;re interested in.
               </p>
               <div className="space-y-4">
                 {['Web Development', 'Digital Marketing', 'Branding', 'Content Creation', 'Social Media'].map((service) => (
@@ -123,7 +123,7 @@ export default function Onboarding() {
             <div className="text-center">
               <h2 className="text-2xl font-semibold mb-4">Step 3: Complete Setup</h2>
               <p className="text-gray-600 mb-6">
-                You're all set! Click the button below to get started with BrandBoosters.
+                                You&apos;re all set! Welcome to BrandBoosters.
               </p>
             </div>
           )}
