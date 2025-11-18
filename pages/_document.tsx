@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <title>OCHI - Presentation Design Agency</title>
+      <title>BrandBoosters</title>
       <Head />
       <body>
         <Main />
