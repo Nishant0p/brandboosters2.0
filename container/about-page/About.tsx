@@ -12,13 +12,13 @@ export default function About() {
 	const teamMembers = [
 		{
 			id: 1,
-			name: 'Sunlight',
+			name: 'Pruthul',
 			role: 'grapic designer/social media manager',
 			image: sunlight
 		},
 		{
 			id: 2,
-			name: 'Ry',
+			name: 'Rishabh',
 			role: 'email marketing',
 			image: ry
 		},
